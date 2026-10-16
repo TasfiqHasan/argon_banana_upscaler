@@ -1,0 +1,30 @@
+# Environment variables & secrets (CRITICAL: Never commit API keys)
+.env
+
+# Python cache & build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+
+# Large binary files & Real-ESRGAN engine (users can download via script/README)
+realesrgan/
+*.exe
+*.dll
+*.zip
+
+# Local inputs and output image directories
+outputs/
+inputs/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
